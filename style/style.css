@@ -1,0 +1,51 @@
+.banner-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.banner-text {
+  position: absolute; 
+  top: 50%;           
+  left: 80%;          
+  transform: translate(-50%, -50%); 
+  color: black;
+  text-align: right;
+  
+
+}
+button{
+    background-color: rgb(223, 83, 18);
+    padding: 20px;
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.second{
+     position: relative;
+  width: 100%;
+  max-width: 1200px; 
+  margin: 130px auto 0px;
+  
+}
+.second .second-pera{
+    display: flex;
+    gap: 28px;
+}
+i{
+    color: rgb(0, 255, 128);
+}
+.img-title{
+    margin: auto;
+    padding: 130px;
+}
+
+
