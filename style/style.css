@@ -68,11 +68,9 @@ i{
 
 }
     
-        }
-        .caption{
-            padding-left: 50px;
-            padding-top: 50px;
-        }
+        
+        
+        
         .button{
     background-color: rgb(255, 255, 255);
     padding: 20px;
@@ -89,4 +87,51 @@ i{
             background-image:url('image/gradient3.png'), url("image/watch.png");
             background-position: center;
             border-radius: 5px;
+            
+}
+.caption{
+  margin-left: 50px;
+  margin-top: 50px;
+  
+}
+.five{
+   position: relative;
+  width: 100%;
+  max-width: 1200px; 
+  margin: 130px auto 0px;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+.section-five-logo{
+  display: flex;
+  gap: 10px;
+}
+.div-1{
+  padding: 100px;
+  width: 380px;
+}
+.div-1 a{
+  color: white;
+  text-decoration: none;
+}
+.part-of-five{
+  display: flex;
+}
+.div-2 input{
+  
+  width: 350px;
+  padding: 18px 31px;
+  background-color: rgb(0, 4, 7);
+  border-radius: 5px;
+}
+.last{
+  margin-top: 20px;
+  background-color: aliceblue;
+  color: rgb(250, 162, 0);
+}
+.div-2{
+  padding: 100px;
+  width: 380px;
+
 }
