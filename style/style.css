@@ -3,6 +3,7 @@
   width: 100%;
   max-width: 1200px; 
   margin: 0 auto;
+  /* background-image: url("image/banner/banner1.png"); */
 }
 
 .banner-img {
@@ -29,7 +30,7 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
-.second{
+.second, main{
      position: relative;
   width: 100%;
   max-width: 1200px; 
@@ -47,5 +48,45 @@ i{
     margin: auto;
     padding: 130px;
 }
+.head{
+  text-align: center;
+  margin-top: 130px;
+  font-size: 2em;
+}
+.third{
+   position: relative;
+  width: 100%;
+  max-width: 1200px; 
+  margin: 130px auto 0px;
+}
+.logo{
+  display: flex;
+  gap: 80px;
+  margin-left: 210px;
+  margin-top: 130px;
 
 
+}
+    
+        }
+        .caption{
+            padding-left: 50px;
+            padding-top: 50px;
+        }
+        .button{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    color: rgb(247, 108, 15);
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.new-part{
+  
+  width: 1140px;
+            height: 301px;
+            background-image:url('image/gradient3.png'), url("image/watch.png");
+            background-position: center;
+            border-radius: 5px;
+}
